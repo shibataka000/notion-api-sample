@@ -1,0 +1,138 @@
+{
+    "parent": {
+        "database_id": "${DATABASE_ID}"
+    },
+    "icon": {
+        "emoji": "🐞"
+    },
+    "properties": {
+        "名前": {
+            "title": [
+                {
+                    "text": {
+                        "content": "タイトル"
+                    }
+                }
+            ]
+        },
+        "日付": {
+            "date": {
+                "start": "2024-06-28T12:00:00+09:00",
+                "end": "2024-06-28T14:00:00+09:00"
+            }
+        },
+        "タグ": {
+            "multi_select": [
+                {
+                    "name": "タグA"
+                },
+                {
+                    "name": "タグB"
+                }
+            ]
+        },
+        "ユーザー": {
+            "people": [
+                {
+                    "object": "user",
+                    "id": "${USER_ID}"
+                }
+            ]
+        }
+    },
+    "children": [
+        {
+            "object": "block",
+            "heading_1": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "テキスト"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "テキスト"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "heading_1": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "箇条書き"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "https://github.com/shibataka000/notion-api-sample",
+                            "link": {
+                                "url": "https://github.com/shibataka000/notion-api-sample"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "https://github.com/shibataka000/notion-api-sample",
+                            "link": {
+                                "url": "https://github.com/shibataka000/notion-api-sample"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "heading_1": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "日付"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "mention": {
+                            "date": {
+                                "start": "2024-06-28T12:00:00+09:00",
+                                "end": "2024-06-28T14:00:00+09:00"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
